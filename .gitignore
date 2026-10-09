@@ -1,0 +1,11 @@
+**/node_modules/
+**/dist/
+runtime/
+evidence/
+delivery/
+*.sqlite*
+*.db
+*.log
+.env*
+__pycache__/
+.codex/

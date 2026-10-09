@@ -1,0 +1,11 @@
+{
+  "name": "long-conversation-canvas",
+  "version": "0.6.33",
+  "description": "在 Codex 内建立多项长任务，绑定唯一主对话与已有分支，保存原文、上下文、成果和检查点。",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "长任务",
+    "shortDescription": "从侧栏进入长任务总览，再展开主对话与分支画布"
+  }
+}

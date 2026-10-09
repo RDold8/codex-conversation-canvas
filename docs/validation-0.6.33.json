@@ -1,0 +1,39 @@
+{
+  "version": "0.6.33",
+  "status": "PASS_WITH_NOTED_LIMITS",
+  "fresh_npm_ci": true,
+  "typecheck": "PASS",
+  "build": "PASS",
+  "isolated_mcp": {
+    "tools": 25,
+    "appOnlyTools": 20,
+    "status": "PASS",
+    "chatWrites": 0,
+    "modelCalls": 0
+  },
+  "tests": {
+    "store": 37,
+    "remote": 40,
+    "governance": 43,
+    "taskGrowth": 24,
+    "engineeringArchive": 19,
+    "archiveCompression": 5,
+    "defaultContext": 6,
+    "verificationPagination": 29,
+    "drafts": 8,
+    "sidebarSchema": "PASS"
+  },
+  "governanceFirstAttempt": "fixture timeout while awaiting terminal event; separate rerun passed 43 cases; timeout cause not established",
+  "installerCheckOnly": "PASS",
+  "zipIntegrity": "PASS",
+  "zipFiles": 10,
+  "privacyScan": {
+    "status": "PASS",
+    "sourceFiles": 48,
+    "findings": []
+  },
+  "nativeNewGovernanceAcceptance": "NOT_RUN",
+  "realLongTaskStress": "NOT_RUN",
+  "zipSHA256": "92b593145317d2b41003620426f3ac3c642216849aac1c85375b500b88c34e71",
+  "countedIsolatedCases": 211
+}

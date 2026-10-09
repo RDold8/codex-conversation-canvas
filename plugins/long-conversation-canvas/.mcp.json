@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "long_conversation_canvas": {
+      "command": "node",
+      "args": [
+        "dist/server.mjs"
+      ],
+      "cwd": ".",
+      "env": {
+        "CANVAS_ENABLE_REMOTE_WRITES": "1"
+      }
+    }
+  }
+}

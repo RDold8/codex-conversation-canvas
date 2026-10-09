@@ -1,0 +1,36 @@
+{
+  "name": "long-conversation-canvas",
+  "version": "0.6.33",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "tsc --noEmit",
+    "test:store": "node test-store.mjs",
+    "test:remote": "node test-remote.mjs",
+    "test:engineering-archive": "node test-engineering-archive.mjs",
+    "test:verification-pagination": "node test-verification-pagination.mjs",
+    "test:archive-compression": "node test-archive-compression.mjs",
+    "test:drafts": "node test-drafts.mjs",
+    "test:default-context": "node test-default-context.mjs",
+    "test:task-growth": "node test-task-growth.mjs",
+    "test:governance": "node test-governance.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@xyflow/react": "^12.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.9.0"
+  }
+}
